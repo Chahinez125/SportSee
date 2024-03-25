@@ -1,10 +1,9 @@
-
+import Header from "../layout/header/Header.jsx"
 
 function HomePage() {
   return (
     <div>
-      <h1>salam alikom</h1>
-      <p>bismilah</p>
+      <Header />
     </div>
   )
 }
