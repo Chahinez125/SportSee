@@ -5,13 +5,14 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Home from './pages/HomePage.jsx';
+
 import ErrorPage from './pages/EroorPage.jsx';
+import App from "./Apps/app.jsx"
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
+    element: <App />,
   },
   {
     path: '/*', 
