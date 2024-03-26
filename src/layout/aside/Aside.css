@@ -15,11 +15,27 @@
 
 .copy {
     color: white;
-    transform: rotate(45deg);
+    transform: rotate(270deg);
     font-family: "Roboto", sans-serif; 
-    
+    position:  absolute;
+    top: 520px;
+    width: 162px;
+    height: 69px
     
 }
+.i-style {
+    padding-bottom: 10px;
+}
+.wrap-i {
+    position: absolute;
+    margin: 0 auto;
+    top:50px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    padding: 27px;
 
+}
   
   
