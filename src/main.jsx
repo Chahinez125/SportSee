@@ -11,7 +11,7 @@ import App from "./Apps/app.jsx"
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: '/',
     element: <App />,
   },
   {
